@@ -9,6 +9,7 @@
 ## 🎯 Goal
 
 Build a strong foundation by understanding complexity analysis and mastering array-based problems.
+Learn about oops also(constructor ,abstraction)
 
 ## 📚 Topics
 
