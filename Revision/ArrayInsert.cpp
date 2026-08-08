@@ -6,7 +6,9 @@ for(int i=n-1; i>= pos;i--){
 arr[i+1] = arr[i]; 
 }
 arr[pos]=ele;
-//n = n + 1;
+// we are addig this because without this the size of the array will not increase 
+//and the last ele will removed automatically 
+n = n + 1;
 }
 
 void Display(int arr[],int n){
