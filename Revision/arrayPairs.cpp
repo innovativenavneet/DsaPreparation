@@ -11,8 +11,6 @@ public:
     }
    };
 };
- 
-
 int main (){
     ArrayPairs a;
     int arr[]= {12,24,15,13};
