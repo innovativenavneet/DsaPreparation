@@ -1,299 +1,299 @@
-# 🚀 12-Week DSA Roadmap
+# 🚀 12-Week DSA Roadmap (NeetCode 150 + Frontend JS Track)
 
-> **Goal:** Build strong DSA fundamentals for Software Engineer interviews by following a structured progression
-
----
-
-# Week 1 — Time Complexity & Arrays
-
-## 🎯 Goal
-
-Build a strong foundation by understanding complexity analysis and mastering array-based problems.
-Learn about oops also(constructor ,abstraction)
-
-## 📚 Topics
-
-- Time Complexity (Big-O)
-- Space Complexity
-- Arrays
-- Prefix Sum
-- Difference Array (Basics)
-- Basic Array Manipulation
-
-## 💻 Practice
-
-- 15–20 Easy Problems
+> **Goal:** Be interview-ready for SDE (2 yrs exp) and Frontend roles using ONE sheet: **NeetCode 150**. Language: **JavaScript / TypeScript**.
 
 ---
 
-# Week 2 — Strings & Hashing
+# ⚙️ How to Study Every Topic (The Loop)
 
-## 🎯 Goal
+1. **Learn (30–60 min max):** Watch NeetCode's short video or read a summary. Know what it is, complexities, and how to implement it.
+2. **Easy first:** Solve the easy problems of that topic to see the core idea.
+3. **Attempt mediums alone for 20–30 min.** Write down what you tried.
+4. **Stuck? (30–40 min cap):** Watch the solution, close it, then code it from scratch.
+5. **Re-solve after 2–3 days, then again after 1 week.**
+6. After every solution, say the **time and space complexity** and explain your approach **out loud**.
 
-Learn efficient string manipulation and optimize solutions using hashing.
+**Notebook entry for each problem:** pattern → trigger phrase → mistake I made.
 
-## 📚 Topics
-
-- Strings
-- Character Arrays
-- Frequency Counting
-- HashMap
-- HashSet
-- Anagrams
-- String Patterns
-
-## 💻 Practice
-
-- 15–20 Easy Problems
+**Theory-first exceptions (spend a bit more time before problems):** Recursion/Backtracking, Graphs, Dynamic Programming.
 
 ---
 
-# Week 3 — Recursion & Backtracking Basics
+# 🗓️ Weekly Rhythm
 
-## 🎯 Goal
+| Day      | Plan                                                                              |
+| -------- | --------------------------------------------------------------------------------- |
+| Mon–Fri  | 2 new problems from current topic + 1 old problem for revision                    |
+| Saturday | Re-solve the problems you struggled with this week (no notes)                     |
+| Sunday   | Timed mock (45 min, 2 problems) from Week 6 onward, otherwise light review + rest |
 
-Develop recursive thinking and understand how backtracking explores multiple possibilities.
+**Time split:** ~70% DSA, ~30% Frontend JS track.
 
-## 📚 Topics
-
-- Recursion Fundamentals
-- Call Stack
-- Base Cases
-- Recursive Trees
-- Backtracking Basics
-- Generate Subsequences
-- Generate Permutations
-
-## 💻 Practice
-
-- 15–20 Easy → Medium Problems
+**If you fall behind:** do only the **Blind 75** problems (marked on NeetCode) inside each topic and leave the rest for later.
 
 ---
 
-# Week 4 — Two Pointers & Sliding Window
+# Week 1 — Complexity, Arrays & Hashing, Two Pointers
 
 ## 🎯 Goal
 
-Recognize common array and string optimization patterns.
+Learn Big-O and the two most common beginner patterns.
 
 ## 📚 Topics
 
-### Two Pointers
+- Time & Space Complexity (Big-O)
+- OOP basics (constructor, abstraction, encapsulation)
+- Arrays & Hashing (HashMap, HashSet, frequency counting, anagrams, prefix sum)
+- Two Pointers (opposite and same direction)
 
-- Opposite Direction
-- Same Direction
-- Remove Duplicates
-- Merge Arrays
+## 💻 NeetCode Practice
 
-### Sliding Window
+- **Arrays & Hashing:** 9 problems
+- **Two Pointers:** 5 problems
 
-- Fixed Window
-- Variable Window
-- Longest/Shortest Window
-- Frequency Window
+## 🟨 Frontend JS Track
 
-## 💻 Practice
-
-- 15–20 Medium Problems
+- Closures, `var/let/const`, hoisting, `this`
 
 ---
 
-# Week 5 — Sorting & Binary Search
+# Week 2 — Sliding Window & Stack
 
 ## 🎯 Goal
 
-Master searching techniques and understand efficient sorting algorithms.
+Recognize window-based optimization and LIFO patterns.
 
 ## 📚 Topics
 
-### Sorting
+- Sliding Window (fixed, variable, longest/shortest, frequency window)
+- Stack (balanced parentheses, monotonic stack, next greater element)
 
-- Bubble Sort
-- Selection Sort
-- Insertion Sort
-- Merge Sort
-- Quick Sort
+## 💻 NeetCode Practice
 
-### Binary Search
+- **Sliding Window:** 6 problems
+- **Stack:** 7 problems
 
-- Binary Search
-- Lower Bound
-- Upper Bound
-- Search on Answer
-- Binary Search on Arrays
+## 🟨 Frontend JS Track
 
-## 💻 Practice
-
-- 15–20 Medium Problems
+- Prototypes, inheritance, `call/apply/bind`
+- Polyfill: `bind`
 
 ---
 
-# Week 6 — Linked Lists
+# Week 3 — Binary Search & Sorting
 
 ## 🎯 Goal
 
-Become comfortable with pointer manipulation and linked list interview patterns.
+Master search on sorted data and "search on answer".
 
 ## 📚 Topics
 
-- Singly Linked List
-- Doubly Linked List
-- Reverse Linked List
-- Fast & Slow Pointer
-- Cycle Detection
-- Merge Lists
-- Remove Nth Node
-- Intersection of Lists
+- Sorting basics (merge sort, quick sort — know how they work)
+- Binary Search (lower/upper bound, rotated array, search on answer)
 
-## 💻 Practice
+## 💻 NeetCode Practice
 
-- 15–20 Medium Problems
+- **Binary Search:** 7 problems
+- Revision: 4–5 old problems from Weeks 1–2
+
+## 🟨 Frontend JS Track
+
+- Event loop, call stack, microtasks vs macrotasks
+- Polyfill: `map`, `filter`, `reduce`
 
 ---
 
-# Week 7 — Stacks & Queues
+# Week 4 — Linked Lists
 
 ## 🎯 Goal
 
-Understand LIFO/FIFO concepts and solve monotonic stack problems.
+Become comfortable with pointer manipulation.
 
 ## 📚 Topics
 
-- Stack
-- Queue
-- Deque
-- Balanced Parentheses
-- Next Greater Element
-- Previous Greater Element
-- Monotonic Stack
-- Monotonic Queue
+- Singly/Doubly linked list
+- Reverse list, fast & slow pointer, cycle detection
+- Merge lists, remove Nth node, dummy-node trick
+- LRU Cache (linked list + hashmap)
 
-## 💻 Practice
+## 💻 NeetCode Practice
 
-- 15–20 Medium Problems
+- **Linked List:** 11 problems
+
+## 🟨 Frontend JS Track
+
+- Promises, `async/await`
+- Polyfill: `Promise.all`, `Promise.race`
 
 ---
 
-# Week 8 — Trees & Binary Search Trees
+# Week 5 — Trees (Part 1)
 
 ## 🎯 Goal
 
-Master tree traversal techniques and recursive tree problems.
+Master recursion on trees and traversals.
 
 ## 📚 Topics
 
-### Binary Trees
+- DFS: preorder, inorder, postorder
+- BFS / level order
+- Depth, diameter, balanced tree, same tree, subtree
 
-- DFS
-- BFS
-- Preorder
-- Inorder
-- Postorder
-- Level Order
+## 💻 NeetCode Practice
 
-### BST
+- **Trees:** first 8 problems (up to Level Order Traversal / Right Side View)
 
-- Search
-- Insert
-- Delete
-- Validate BST
-- Lowest Common Ancestor
+## 🟨 Frontend JS Track
 
-## 💻 Practice
-
-- 15–20 Medium Problems
+- `debounce`, `throttle`
+- Machine coding: **Todo app**, **Tabs**
 
 ---
 
-# Week 9 — Heaps, Greedy & Bit Manipulation
+# Week 6 — Trees (Part 2) & Tries
 
 ## 🎯 Goal
 
-Learn priority-based data structures and common greedy strategies.
+Finish trees, learn BST and tries.
 
 ## 📚 Topics
 
-### Heap
+- BST: validate, Kth smallest, LCA
+- Construct tree from traversals, serialize/deserialize
+- Trie basics
 
-- Min Heap
-- Max Heap
-- Priority Queue
-- Top K Elements
-- Kth Largest/Smallest
+## 💻 NeetCode Practice
 
-### Greedy
+- **Trees:** remaining 7 problems
+- **Tries:** 3 problems
+- 🟢 **Start weekly Sunday mock (45 min, 2 problems)**
 
-- Activity Selection
-- Interval Problems
-- Scheduling Basics
+## 🟨 Frontend JS Track
 
-### Bit Manipulation
-
-- Bitwise Operators
-- Set/Clear/Toggle Bits
-- XOR Tricks
-- Power of Two
-- Counting Bits
-
-## 💻 Practice
-
-- 15–20 Medium Problems
+- Deep clone, `curry`, `memoize`
+- Machine coding: **Autocomplete / Typeahead**
 
 ---
 
-# Week 10 — Graphs
+# Week 7 — Heap & Intervals
 
 ## 🎯 Goal
 
-Master graph traversal and shortest path algorithms.
+Learn priority-based problems and interval merging.
 
 ## 📚 Topics
 
-- Graph Representation
-- BFS
-- DFS
-- Connected Components
-- Topological Sort
-- Cycle Detection
-- Disjoint Set Union (Union-Find)
-- Dijkstra's Algorithm
+- Min/Max Heap, Priority Queue, Top K, Kth largest
+- Two-heap technique (median)
+- Interval merging, overlapping, scheduling
 
-## 💻 Practice
+## 💻 NeetCode Practice
 
-- 15–20 Medium Problems
+- **Heap / Priority Queue:** 7 problems
+- **Intervals:** 6 problems
+
+## 🟨 Frontend JS Track
+
+- Machine coding: **Infinite scroll**, **Pagination**
+- Web basics: DOM events, event delegation
 
 ---
 
-# Week 11 — Dynamic Programming
+# Week 8 — Backtracking & Greedy
 
 ## 🎯 Goal
 
-Build intuition for identifying and solving DP problems.
+Explore decision trees and learn common greedy strategies.
 
 ## 📚 Topics
 
-### 1D DP
+- Recursion fundamentals, call stack, decision tree (**theory first**)
+- Subsets, permutations, combination sum, N-Queens
+- Greedy: Jump Game, Maximum Subarray, Gas Station
 
-- Fibonacci
-- Climbing Stairs
-- House Robber
-- Coin Change
+## 💻 NeetCode Practice
 
-### 2D DP
+- **Backtracking:** 9 problems
+- **Greedy:** pick the 4–5 core problems (rest optional)
 
-- Grid DP
-- Unique Paths
-- Minimum Path Sum
+## 🟨 Frontend JS Track
 
-### DP Concepts
+- React performance: memoization, `useMemo`, `useCallback`, virtualization
+- Machine coding: **Star rating**, **Modal**
 
-- Memoization
-- Tabulation
-- Space Optimization
+---
 
-## 💻 Practice
+# Week 9 — Graphs
 
-- 15–20 Medium Problems
+## 🎯 Goal
+
+Master graph traversal and common graph patterns.
+
+## 📚 Topics
+
+- Graph representation (adjacency list) — **theory first**
+- BFS, DFS, connected components
+- Grid problems (islands, rotting oranges)
+- Cycle detection, topological sort
+- Union-Find
+
+## 💻 NeetCode Practice
+
+- **Graphs:** 13 problems
+- **Advanced Graphs:** only Dijkstra-based problems (Network Delay Time, Cheapest Flights) — rest optional
+
+## 🟨 Frontend JS Track
+
+- Browser basics: rendering, reflow/repaint, CORS, storage, caching
+- Machine coding: **Image carousel** / **Kanban board**
+
+---
+
+# Week 10 — Dynamic Programming (1-D)
+
+## 🎯 Goal
+
+Build DP intuition through subproblems and memoization.
+
+## 📚 Topics
+
+- Fibonacci, Climbing Stairs, House Robber (**theory first**)
+- Memoization vs tabulation
+- Coin Change, LIS, Word Break, Decode Ways
+
+## 💻 NeetCode Practice
+
+- **1-D DP:** 12 problems
+
+## 🟨 Frontend JS Track
+
+- Revise JS internals (closures, event loop, promises) with GreatFrontEnd questions
+- React: hooks, reconciliation, state management questions
+
+---
+
+# Week 11 — Dynamic Programming (2-D) & Weak Topics
+
+## 🎯 Goal
+
+Finish core DP and patch weak areas.
+
+## 📚 Topics
+
+- Grid DP: Unique Paths, Min Path Sum
+- LCS, Edit Distance, Knapsack basics
+- Optional: Bit Manipulation (Single Number, Counting Bits, XOR tricks), Math & Geometry
+
+## 💻 NeetCode Practice
+
+- **2-D DP:** 8–11 problems (skip the hardest)
+- Bit Manipulation: 3–4 easy problems (optional)
+- Redo your notebook's "mistake" list
+
+## 🟨 Frontend JS Track
+
+- System design for frontend basics (component design, API/state design)
+- Machine coding: timed 45-min practice rounds
 
 ---
 
@@ -301,46 +301,48 @@ Build intuition for identifying and solving DP problems.
 
 ## 🎯 Goal
 
-Consolidate learning, improve speed, and prepare for real interviews.
+Consolidate learning and improve speed.
 
 ## 📚 Focus Areas
 
-- Revisit Weak Topics
-- Mixed Problem Solving
-- Timed Coding Sessions
-- Mock Interviews
-- Pattern Revision
-- Blind Problem Solving
+- Re-solve all "struggled" problems from your notebook
+- 2 timed mocks per week (45 min, 2 problems)
+- Mixed, pattern-blind problem solving (identify pattern first)
+- Explain solutions out loud + state complexities
+- Resume walk-through: prepare deep answers on LFS, Astro GPT, EZ Employee, Nimbo (architecture, WebSockets, state management, performance)
+- Basic system design: chat system, notifications, live score updates (relates directly to your projects)
 
 ## 💻 Practice
 
-- 15–20 Mixed Problems
+- 15–20 mixed problems from NeetCode 150 (no new sheet)
 
 ---
 
 # 📈 Roadmap Summary
 
-| Week | Focus                            |
-| ---- | -------------------------------- |
-| 1    | Time Complexity & Arrays         |
-| 2    | Strings & Hashing                |
-| 3    | Recursion & Backtracking         |
-| 4    | Two Pointers & Sliding Window    |
-| 5    | Sorting & Binary Search          |
-| 6    | Linked Lists                     |
-| 7    | Stacks & Queues                  |
-| 8    | Trees & BST                      |
-| 9    | Heaps, Greedy & Bit Manipulation |
-| 10   | Graphs                           |
-| 11   | Dynamic Programming              |
-| 12   | Revision & Mock Interviews       |
+| Week | DSA Focus                                  | Frontend JS Track                            |
+| ---- | ------------------------------------------ | -------------------------------------------- |
+| 1    | Complexity, Arrays & Hashing, Two Pointers | Closures, `this`                             |
+| 2    | Sliding Window, Stack                      | Prototypes, `bind` polyfill                  |
+| 3    | Binary Search, Sorting                     | Event loop, array polyfills                  |
+| 4    | Linked Lists                               | Promises, `Promise.all`                      |
+| 5    | Trees (Part 1)                             | Debounce/throttle, Todo, Tabs                |
+| 6    | Trees (Part 2), Tries                      | Deep clone, curry, Autocomplete              |
+| 7    | Heap, Intervals                            | Infinite scroll, Pagination                  |
+| 8    | Backtracking, Greedy                       | React performance, Star rating, Modal        |
+| 9    | Graphs                                     | Browser basics, Carousel                     |
+| 10   | 1-D DP                                     | JS internals, React hooks revision           |
+| 11   | 2-D DP, weak topics                        | Frontend system design, timed machine coding |
+| 12   | Revision & mocks                           | Resume + system design prep                  |
 
 ---
 
 # 🎯 Final Target
 
-- ✅ 180–220 DSA Problems
-- ✅ Strong understanding of core data structures
-- ✅ Master common interview patterns
-- ✅ Improve problem-solving speed and consistency
-- ✅ Be interview-ready for SDE-1/Product-based company coding rounds
+- ✅ NeetCode 150 core (~130–150 problems, at least 75 solved **twice**)
+- ✅ Comfortable with top 8–10 patterns
+- ✅ Solve most mediums in 25–30 minutes
+- ✅ Clean JS fundamentals + 10+ machine-coding problems
+- ✅ Consistent resume story (one honest experience number on both resumes)
+
+> **Rule:** No new sheets. If a topic is weak, use LeetCode topic tags for extra practice.
